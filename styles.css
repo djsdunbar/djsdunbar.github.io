@@ -1,44 +1,95 @@
-
-#brownies{
-    border:groove 2px #4d1b00;
-    font-family: cursive;
-    padding: 8px, 10px;
-    background-color: rosybrown;
+.header {
+  text-align: center;
+  color: #ffffd2;
+  background-color: #afe6ff;
+  padding: 10px;
+  border-radius: 30px;
 }
-
-.fulldessert{
-background-color: rosybrown;
-
-    }
-
-.design1{
-    border: groove brown;
-    padding: 6px;
-    display:block;
-}
-
-.img{
-    border: groove 10px rosybrown;
-}
-
 #mainpage{
-background-color: darkgrey;
-font-family: cursive;
-text-align: center;
-border: groove 20px rosybrown;
-width: auto;
-height: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-size: larger
+}
+/*
+#start {
+  background-color: #afe6ff;
+  color: #000000;
+  display: block;
+  margin: auto;
+  border-radius: 10px;
+  padding: 10px;
+}
+*/
+
+#time {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-start;
+  margin: auto;
+  align-content: center;
 }
 
-#vodkapasta{
-    font-family: cursive;
-    padding: 8px, 10px;
-    background-color: coral;
+.row {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: flex-start;
+  justify-content: space-evenly;
 }
 
-#steak{
- font-family: cursive;
-    padding: 8px, 10px;
-    background-color: palevioletred;   
-    
+.box {
+  background-color: #afe6ff;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  border-radius: 40px;
+  font-family: "Goudy Bookletter 1911", sans-serif;
+}
+
+.formula {
+  background-color: #ffffd2;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  border-radius: 40px;
+  font-family: "Goudy Bookletter 1911", sans-serif;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  gap: 20px;
+}
+
+.blink:hover {
+  background-color: beige;
+}
+
+.sub {
+  color: #ffff00;
+}
+
+body {
+  background-color: beige;
+}
+
+.clicked {
+  background-color: cadetblue;
+}
+
+.correct{
+  background-color: green;
+}
+#link{
+  background-color: #afe6ff;
+  color: #000000;
+  display: block;
+  margin: 10px;
+  border-radius: 24px;
+  padding: 10px;
+  
 }
